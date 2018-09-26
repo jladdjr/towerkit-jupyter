@@ -13,4 +13,4 @@ def start_session():
 
     v1 = root.available_versions.v1.get()
     v2 = root.available_versions.v2.get()
-    return v1, v2
+    return root, v1, v2
